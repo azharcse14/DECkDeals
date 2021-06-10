@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#000000"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view_nav_header_pic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/lotto_logo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nav_header_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saddam Hossain"
+        android:textColor="#c40c0c"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nav_header_user_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0161-0003132"
+        android:textColor="#c40c0c"
+        android:textSize="14sp" />
+
+</LinearLayout>

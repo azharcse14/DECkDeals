@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="My Profile">
+        <menu>
+            <item
+                android:id="@+id/my_self_id"
+                android:icon="@drawable/ic_baseline_account_box_24"
+                android:title="About My Self" />
+        </menu>
+    </item>
+
+    <item android:title="Coins">
+        <menu>
+            <item
+                android:id="@+id/deck_coins"
+                android:icon="@drawable/ic_baseline_attach_file_24"
+                android:title="Deck Coins" />
+        </menu>
+    </item>
+
+    <item android:title="Offers">
+        <menu>
+            <item
+                android:id="@+id/views"
+                android:icon="@drawable/ic_highest_viewed"
+                android:title="Highest Views " />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_expiring"
+                android:title="Expiring Soon" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings" />
+
+    <item android:title="My Preferred Feeds">
+        <menu>
+            <item
+                android:id="@+id/categoryWise"
+                android:icon="@drawable/ic_nav_list"
+                android:title="Category Wise" />
+            <item
+                android:id="@+id/storeAndBrandId"
+                android:icon="@drawable/ic_nav_store"
+                android:title="Store and Brand Wise" />
+
+            <item
+                android:id="@+id/place_id"
+                android:icon="@drawable/ic_nav_fence"
+                android:title="Place Wise" />
+
+        </menu>
+    </item>
+
+</menu>
